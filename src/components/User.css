@@ -1,0 +1,115 @@
+.nursery_logo{
+    width: 100%;
+    max-height:150px;
+    
+    
+}
+.cover{
+    border-radius: 60%;
+    width: 25%;
+    margin-left: 10%;
+    margin-top: -70px;
+    border: rgb(234, 250, 255);
+    border-style: solid;
+}
+.wrapinfo{
+    display: flex;
+}
+.dashbutton{
+    margin-top: 50px;
+    width: 185px;
+    height: 35px;
+    margin-left: 20px;
+
+    background-color: rgb(255, 169, 119);
+    padding: 0;
+    border-radius: 4px;
+    border-color: rgb(255, 169, 119);;
+}
+.user_info>h4{
+    margin-top: 25px;
+}
+.user_info>ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+    
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.user_info>h5{
+    margin-top: 30px;
+}
+.content{
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    
+}
+.name_con{
+    display: flex;
+}
+.user_cover{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    background-color: rgb(243, 247, 247);
+}
+.name_con>button{
+    
+    font-weight: 500;
+    font-size: 20px;
+    background: none;
+    border:none;
+    margin-left: 10%;
+    margin-right: 30px;
+    
+}
+.logo_con{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 245px;
+    margin-top: 25px;
+    margin-left: 10%;
+    background-color: rgb(206, 225, 247);
+}
+@media (max-width:820px){
+    .name_con>button{
+        margin-top: 10px;
+        margin-left: 1px;
+        font-size: 10px;
+        background: none;
+        border:none;
+    }
+    .wrapinfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .cover{
+        
+        margin-left: 1%;
+        
+    }
+    .user_info>h5{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .user_info>ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        font-size: 15px;
+        margin-top: 15px;
+        
+    }
+}

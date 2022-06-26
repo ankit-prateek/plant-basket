@@ -1,0 +1,84 @@
+.chart{
+    margin-left: 20%;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+.aftercard{
+    margin-top: -45px;
+}
+.catchart{
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.charticon{
+    background-color: rgba(134, 159, 243, 0.863);
+    width: 80px;
+    height: 60px;
+    margin-left: 25px;
+    border-radius: 4px;
+    margin-top: -25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.chartcard{
+    margin-top: 50px;
+    margin-left: 30px;
+    min-width: 270px;
+    background: white;
+    height: 150px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.uploadchart{
+    margin-top: -55px;
+    margin-left: 25px;
+    margin-bottom: 75px;
+    margin-right: 25px;
+    background-color: rgba(172, 224, 194, 0.884);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.datechart{
+    margin-top: -55px;
+    margin-left: 25px;
+    margin-bottom: 75px;
+    margin-right: 25px;
+    background-color: rgba(252, 244, 129, 0.986);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.chartcol1{
+    margin-top: 25px;
+    margin-left: 25px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+}
+.col2{
+    margin-top: 25px;
+    margin-left: 25px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+}
+.parentchart{
+    width: 800px;
+    max-height: 150px;
+    background-color: cornsilk;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: 4px;
+}
+.iconxy{
+    width: 450px;
+    background-color: rgba(141, 241, 241, 0.397);
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-top: 20px;
+}

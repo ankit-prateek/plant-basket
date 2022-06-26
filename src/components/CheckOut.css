@@ -1,0 +1,87 @@
+.check__page{
+    display: flex;
+
+}
+.check__line{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.check__left{
+    max-width: 75%;
+    min-width:75%;
+}
+.sign__in{
+    background-color: white;
+    width: 320px;
+    height: 120px;
+}
+.sign__in > button{
+    background-color: rgb(255, 176, 30);
+    margin-left: 25px;
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+    border:orange
+}
+.sign__in > h2{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  
+}
+.coupon{
+    color: lawngreen;
+    
+}
+.check__right{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 rgb(0, 0, 0), 2px 6px 2px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(247, 247, 247);
+    height: 470px;
+    width: 100%;
+    margin-right: 25px
+}
+.apply{
+    width: 85px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(255, 169, 119);
+    padding: 0;
+    border-radius: 4px;
+    border-color: rgb(255, 169, 119);;
+}
+.mycheckout{
+    width: 250px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(89, 105, 250);
+    padding: 0;
+    border-radius: 4px;
+    border-color: rgb(89, 105, 250);
+}
+.drop{
+    height: 40px;
+    width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mycon{
+    display: flex;
+    margin-left: 25px;
+}
+.mycon>p{
+    margin-left: 25px;
+    margin-right: 50px;
+}
+.mycon>h5{
+    margin-left: 10px;
+    margin-right: 60px;
+}
+.lines{
+    margin-left: 25px;
+    margin-right: 25px;
+}

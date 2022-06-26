@@ -1,0 +1,133 @@
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sliderrange{
+    display: flex;
+    width:80%;
+}
+.plantpagecol2{
+    margin-left: 16%;
+}
+.sorting{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right:25%;
+}
+.flex>input{ 
+    width: 10px;
+}
+.row1>h6{
+    color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.col1{
+    top:12.5%;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    min-width: 220px;
+    height: 100vh;
+    
+}
+.col1>h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.row1{
+    display: flex;
+    width:100%;
+    height: 75px;
+    background-color: rgb(208, 235, 235);
+    position:sticky
+}
+.webview{
+    display: flex;
+}
+.myview{
+    display: flex;
+}
+.myview>input{
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.settype{
+    display: flex;
+    flex-direction: column;
+}
+.setselect{
+    width: 150px;
+    margin-left: 15px;
+}
+.setprice{
+    margin-top: 50px;
+}
+.filterbutton{
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: rgb(248, 217, 116);
+    padding: 0;
+    border-radius: 4px;
+    border-color: rgb(243, 211, 31);;
+}
+.myflex{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hamburger{
+    visibility: hidden;
+    z-index: 10;
+    
+
+}
+@media (max-width:820px){
+    .col1{
+        position: fixed;
+        width: 260px;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: transform 350ms ease-out;
+        background-image: url("./Shop/sidebar.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .col1.open{
+        transform: translateX(0%);
+        left: 0%;
+        position: absolute;
+        z-index: 5;
+        background-image: url("./Shop/sidebar.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .hamburger{
+        visibility: visible;
+        z-index: 5;
+        position:absolute;
+
+        
+    }
+    .wrapper{
+        max-width: 26px;
+        
+    }
+    .plantpagecol2{
+        margin-left: 25px;
+    }
+    
+}

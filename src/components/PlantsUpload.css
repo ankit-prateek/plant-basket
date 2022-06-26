@@ -1,0 +1,117 @@
+.xygroup{
+    height: fit-content;
+    display: flex;
+   
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    margin-left: 18%;
+}
+.flex{
+    display: flex;
+}
+.plantname{
+    width: 450px;
+    font-size: large;
+    
+}
+.plantprice{
+    width: 200px;
+    font-size: large;
+    
+
+}
+
+.plantdes{
+    height: 80px;
+    width: 450px;
+    font-size: large;
+    
+}
+.parentselect{
+    display: flex;
+}
+.catselect{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2em;
+}
+.select{
+    width: 180px;
+    height: 35px;
+}
+.plantbutton{
+    display: block;
+      height: 40px;
+      width: 140px;
+      border: 1px solid blanchedalmond;
+      border-radius: 40px;
+      text-align: center;
+      line-height: 40px;
+      position: relative;
+      
+      
+      
+}
+.ximage{
+    margin-top: 30px;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.xyparent{
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.info_plants{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 75px;
+
+}
+@media (max-width:820px){
+    .parent{
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        max-width: 90%;
+       
+    }
+    .image{
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        max-width: 90%;
+    }
+    .plantname{
+        width: 80%;
+    }
+    .plantdes{
+        width: 80%;
+    }
+    .plantprice{
+        width: 95%;
+    }
+    .select{
+        width: 110%;
+    }
+}
+.drop-zone{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-top: 25px;
+    background-color: rgba(160, 196, 174, 0.808);
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    height: 60px;
+    border: thistle;
+}

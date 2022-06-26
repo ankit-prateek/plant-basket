@@ -1,0 +1,35 @@
+.order{
+    position:fixed;
+     top:100px; 
+     right:20px;
+}
+.align{
+    display: flex;
+}
+.item{
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.check{
+    margin-left: 10px;
+}
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    border-style: groove;
+    margin-bottom: 5px;
+    
+    
+}
+.great{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.address>input{
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-right: 15px;
+}

@@ -1,0 +1,33 @@
+.image_search{
+    display: flex;
+}
+.animtext{
+    margin-top: 50px;
+    margin-left: -100px;
+    width: 400px;
+    height: 200px;
+   
+}
+.logotext{
+    margin-top: 90px;
+    margin-left: 20%;
+    z-index: -10;
+}
+.text_image{
+   margin-top: -20px;
+   
+}
+
+.bgtext{
+    margin-left: -170px;
+    height: 300px;
+    max-width: 400px;
+    min-width: 400px;
+    background:url('./Shop/art.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

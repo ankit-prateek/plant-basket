@@ -1,0 +1,240 @@
+.payment{
+    width: 48%;
+    min-width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    
+}
+.mode{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    border-radius: 4px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.radio{
+    
+    
+    margin-right: 25px;
+    
+    
+}
+.parent{
+    margin-top: 0;
+    background-color: aqua;
+    height: 100%;
+    width: 95%;
+    display: flex;
+
+    margin-left: 35px;
+
+
+}
+.blueborder{
+    border-radius: 8px;
+    box-shadow:1px 1px 5px 5px rgba(68, 40, 228, 0.959), 1px 1px 1px 1px rgba(100, 58, 218, 0.932);
+}
+.xinfo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 25px;
+    background-color: rgb(182, 244, 252);
+    background: url("./Shop/payment.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.paytm{
+    width: 50%;
+    height: 80px;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+.expiration {
+    border: 1px solid #bbbbbb;
+}
+.expiration>input {
+    border: 0;
+}
+.expiration>span {
+    background: white;
+    border: 0;
+}
+.action{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 125px;
+    height: 40px;
+    border-color: rgb(0, 80, 253);
+    border-radius: 4px;
+    background-color: rgb(31, 45, 248);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
+    border-color: rgb(31, 212, 40);
+    border-radius: 4px;
+    background-color: rgb(40, 226, 23);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+
+}
+.cod{
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    background: url("./Shop/cod.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.cod>button{
+    margin-top: 45%;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    width: 40%;
+    height: 60px;
+    border-color: rgb(73, 42, 245);
+    border-radius: 4px;
+    background-color: rgb(71, 83, 245);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.upi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 410px;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    background: url("./Shop/upi.svg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.upi>div{
+    
+    margin-top: 180px;
+    margin-left: 185px;
+}
+.logo{
+    height: 50px;
+    margin-top: 10px;
+    position: absolute;
+    left:41%;
+}
+.upiaction{
+    margin-left: 230px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 125px;
+    height: 40px;
+    border-color: rgb(0, 80, 253);
+    border-radius: 4px;
+    background-color: rgb(31, 45, 248);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+.demode{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    background: url("./Shop/mode.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.demode>h3{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+.xyinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 25px;
+    background-color: rgb(182, 244, 252);
+    width: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 25rem;
+
+}
+.sucessmessage{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-500%);
+    transition: transform 850ms ease-out;
+     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+.sucessmessage.open{
+    margin-left: 40%;
+    transform: translateX(0%);
+    left: 0%;
+    position: absolute;
+    z-index: 5;
+    
+}
+.label{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 15px;
+}
+@media(max-width:800px){
+    .parent{
+        flex-direction: column;
+    }
+    .logo{
+        left: 80%;
+    }
+
+}
